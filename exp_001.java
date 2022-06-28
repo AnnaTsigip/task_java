@@ -1,5 +1,5 @@
 //Определение является ли строка полиндромом
-package seminar2;
+
 import java.util.Scanner;
 
 public class exp_001 {

@@ -4,7 +4,7 @@
 // Требуется восстановить выражение до верного равенства. 
 // Предложить хотя бы одно решение или сообщить, что его нет.
 
-package seminar2;
+
 
 public class exp_004 {
     public static void main(String[] args) {

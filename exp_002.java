@@ -1,5 +1,5 @@
 //Сократить строку вида aaabbbssskkk до a3b3s3k3
-package seminar2;
+
 
 public class exp_002 {
     public static void main(String[] args) {

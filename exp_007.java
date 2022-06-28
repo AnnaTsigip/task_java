@@ -1,4 +1,4 @@
-package seminar2;
+
 
 public class exp_007 {
 

@@ -1,7 +1,7 @@
 // У вас есть отсортированный массив, 
 // нужно используя минимальное колличество попыток найти загаданное число
 
-package seminar2;
+
 
 import java.util.Random;
 import java.util.Scanner;
