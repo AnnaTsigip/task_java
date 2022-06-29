@@ -6,7 +6,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class exp_005 {
+public class hw2_task1{
     public static void main(String[] args) {
         Random random = new Random();
 
