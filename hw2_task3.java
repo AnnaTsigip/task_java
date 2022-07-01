@@ -12,24 +12,19 @@ public class hw2_task3 {
 
     public static void main(String[] args) {
 
-        // МОЖНО ВКЛЮЧИТЬ РУЧНОЙ ВВОД
-        // System.out.print("\n\nЗадайте выражение вида: 2? + ?5 = 69 , а мы попытаемся
-        // его восстановить: ");
-        // Scanner Scanner = new Scanner(System.in);
-        // String word = Scanner.nextLine();
-        // Scanner.close();
+        String word = "2? + ?5 = 59"; // задаем выражение, с пробелами или без пробелов - всё равно
+        System.out.println("\n\nЗадано выражение: " + word);
 
-        String word = "2? + ?5 = 69"; // задаем выражение, с пробелами или без пробелов - всё равно
-        System.out.println("\n\nЗадано выражение: " + word + " , его решения:");
-
-        word = word.replace("+", "=");
+        word = word.replace("+", "="); // заменили + на =
+        System.out.println(word);
         word = word.replace(" ", ""); // убираем пробелы
-        String[] words = word.split("="); // получили массив строк вида [2?,?5,69]
+        System.out.println(word);
+        String[] words = word.split("="); // делим по разделителю =; получили массив строк вида [2?,?5,69]
 
         word = word.replace("=", ""); // получили строку вида "2??569", чтобы посчитать количество вопросительных
                                       // знаков
         int n = word.length() - word.replace("?", "").length(); // посчитали количество вопросительных знаков
-        System.out.println("Количество знаков '?' - " + n);
+        System.out.println("Количество знаков '?' = " + n);
 
         int count = 0;
         for (int i = 0; i < 10; i++) { // заменяем "?" числами и проверяем выполнение условия выражения
@@ -58,6 +53,7 @@ public class hw2_task3 {
             comb[index] = i;
             generate(comb, index + 1, n);
         }
-    }}
+    }
+}
 
   
