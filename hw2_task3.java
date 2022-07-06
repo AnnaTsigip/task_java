@@ -16,9 +16,9 @@ public class hw2_task3 {
         System.out.println("\n\nЗадано выражение: " + word);
 
         word = word.replace("+", "="); // заменили + на =
-        System.out.println(word);
+        //System.out.println(word);
         word = word.replace(" ", ""); // убираем пробелы
-        System.out.println(word);
+        //System.out.println(word);
         String[] words = word.split("="); // делим по разделителю =; получили массив строк вида [2?,?5,69]
 
         word = word.replace("=", ""); // получили строку вида "2??569", чтобы посчитать количество вопросительных
